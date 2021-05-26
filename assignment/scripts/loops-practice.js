@@ -1,4 +1,43 @@
 console.log('****** Loops Practice *******');
+/* NOTES
+* a 'for' loop repeats until condition evalutates to 'false'
+* for (statement 1; statement 2; statement 3) {
+  // code block to be executed
+}
+* for (let step = 0; step < 5; step++) {
+  // Runs 5 times, with values of step 0 through 4.
+  console.log('Walking east one step');
+}
+* Statement 1 is executed (one time) before the execution of the code block.
+* Statement 2 defines the condition for executing the code block.
+* Statement 3 is executed (every time) after the code block has been executed.
+or:
+* Statement 1 sets a variable before the loop starts (let step = 0).
+* Statement 2 defines the condition for the loop to run (step must be less than 5).
+* Statement 3 increases a value (i++) each time the code block in the loop has been executed.
+
+* a 'while' loop will continue to execute its statements as long as the condition evalutes to 'true'
+* while (condition)
+  statement
+* if the condition becomes 'false', statement within loop stops executing
+
+* The following while loop iterates as long as n is less than 3:
+
+* let n = 0;
+  let x = 0;
+  while (n < 3) {
+    n++;
+    x += n;
+ }
+* With each iteration, the loop increments n and adds that value to x.
+  Therefore, x and n take on the following values:
+* After the first pass: n = 1 and x = 1
+* After the second pass: n = 2 and x = 3
+* After the third pass: n = 3 and x = 6
+* After completing the third pass, the condition n < 3 is no longer true, so the loop terminates.
+
+*/
+
 // 1. 'for' loop
 console.log('---- 1. For loops ----');
 // Example: a for loop to console.log numbers from 0 to 3
